@@ -47,33 +47,61 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-/* {
-    box-sizing: border-box;
-}
-
-html, body {
-	height: 100%;
-}*/
-.container {
-  text-align: center;
-}
-nav a {
-  display: inline-flexbox;
-  align-content: center;
-  width: 100%;
-  border-bottom: 1px solid pink;
-  padding: 0% 2%;
-}
-a:hover {
-  color: pink;
+* {
+  box-sizing: border-box;
 }
 header {
   text-align: center;
 }
-article #whyMe {
-  color: gray;
+html,
+body {
+  height: 100%;
 }
-.Midsection {
-  border: 1px solid gray;
-  display: flex;
+.container {
+  text-align: center;
+}
+.container nav {
+  display: inline-flexbox;
+  align-content: center;
+  width: 100%;
+  padding: 1% 3%;
+  background-color: pink;
+}
+.container nav a {
+  text-decoration: none;
+  color: gray;
+  justify-content: space-evenly;
+}
+.container nav a:hover {
+  color: white;
+}
+article.whyMe {
+  color: gray;
+  background: pink;
+  height: 2%;
+  padding: 1px 0;
+  text-align: center;
+}
+section {
+  display: inline-flex;
+  justify-content: space-around;
+}
+.midSec1 {
+  border-right: 1px solid black;
+}
+.midSec2 {
+  border-left: 1px solid black;
+}
+.icons {
+  background-color: pink;
+  color: white;
+}
+button {
+  text-decoration: none;
+  width: 20%;
+  height: 20%;
+  margin: 2%;
+}
+button address button:hover {
+  color: white;
 }
